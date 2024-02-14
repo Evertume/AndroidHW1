@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">hw1</string>
+    <string name="enter_details_to_create_account">Enter Details to Create Account</string>
+    <string name="first_name">First Name</string>
+    <string name="enter_first_name_here">Enter first name here</string>
+    <string name="last_name">Last Name</string>
+    <string name="enter_last_name_here">Enter last name here</string>
+    <string name="age">Age</string>
+    <string name="enter_age_here">Enter age here</string>
+    <string name="username">Username</string>
+    <string name="enter_username_here">Enter username here</string>
+    <string name="password">Password</string>
+    <string name="enter_password_here">Enter password here</string>
+    <string name="registration">Registration</string>
+</resources>

@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent">
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+
+        android:layout_height="match_parent"
+
+        android:orientation="vertical"
+
+        android:layout_marginLeft="40dp"
+
+        android:layout_marginRight="40dp"
+
+        android:layout_marginTop="15dp">
+
+
+
+        <TextView
+
+            android:layout_width="wrap_content"
+
+            android:layout_height="wrap_content"
+
+            android:text="@string/enter_details_to_create_account"
+
+            android:textColor="#000"
+
+            android:textSize="25sp"
+
+            android:id="@+id/textdisplay"
+
+            app:layout_constraintBottom_toBottomOf="parent"
+
+            app:layout_constraintLeft_toLeftOf="parent"
+
+            app:layout_constraintRight_toRightOf="parent"
+
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+
+            android:textSize="20sp"
+
+            android:textColor="#000"
+
+            android:id="@+id/firstnametextview"
+
+            android:text="@string/first_name">
+
+        </TextView>
+
+        <EditText
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+
+            android:hint="@string/enter_first_name_here"
+
+            android:id="@+id/firstname"
+
+            android:autofillHints="Dias"
+
+            android:inputType="text">
+
+        </EditText>
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+
+            android:textSize="20sp"
+
+            android:textColor="#000"
+
+            android:id="@+id/lastnametextview"
+
+            android:text="@string/last_name">
+
+        </TextView>
+
+        <EditText
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+
+            android:hint="@string/enter_last_name_here"
+
+            android:id="@+id/lastname"
+
+            android:autofillHints="Kuspanov"
+
+            android:inputType="text">
+
+        </EditText>
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+
+            android:textSize="20sp"
+
+            android:textColor="#000"
+
+            android:id="@+id/agetextview"
+
+            android:text="@string/age">
+
+        </TextView>
+
+        <EditText
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+
+            android:hint="@string/enter_age_here"
+
+            android:id="@+id/age"
+
+            android:autofillHints="20"
+
+            android:inputType="number">
+
+        </EditText>
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+
+            android:textSize="20sp"
+
+            android:textColor="#000"
+
+            android:id="@+id/usernametextview"
+
+            android:text="@string/username">
+
+        </TextView>
+
+        <EditText
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+
+            android:hint="@string/enter_username_here"
+
+            android:id="@+id/username"
+
+            android:autofillHints="Everytume"
+
+            android:inputType="text">
+
+        </EditText>
+
+        <TextView
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="30dp"
+
+            android:textSize="20sp"
+
+            android:textColor="#000"
+
+            android:id="@+id/passwordtextview"
+
+            android:text="@string/password">
+
+        </TextView>
+
+        <EditText
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="15dp"
+
+            android:inputType="textPassword"
+
+            android:hint="@string/enter_password_here"
+
+            android:id="@+id/password"
+
+            android:importantForAutofill="yes">
+
+        </EditText>
+
+        <Button
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+
+            android:layout_marginTop="10dp"
+
+            android:id="@+id/registerbutton"
+
+            android:text="@string/registration">
+
+        </Button>
+
+
+
+    </LinearLayout>
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
